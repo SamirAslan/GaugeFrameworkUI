@@ -1,0 +1,60 @@
+# <text> butonuna tıklanır ve üye olunur. User:<user>,Password:<password>,Message:<message>
+* "1" saniye kadar bekle
+* "btn_navBarElements" li elementlerden texti <text> olana tıkla
+* "field_userSignup" li elemente <user> degerini yaz
+* "field_passwordSignup" li elemente <password> degerini yaz
+* "btn_signUp" li elemente tıkla
+* Açılan popup da <message> var mı?
+* "1" saniye kadar bekle
+
+# <text> butonuna tıklanır ve login olunur. User:<user>,Password:<password>,Message:<message>
+* "btn_navBarElements" li elementlerden texti <text> olana tıkla
+* "field_userLogin" li elemente <user> degerini yaz
+* "2" saniye kadar bekle
+* "field_passwordLogin" li elemente <password> degerini yaz
+* "btn_login" li elemente tıkla
+* "2" saniye kadar bekle
+* sayfada <message> textinin yazdığı doğrulanır
+
+# sayfada <message> textinin yazdığı doğrulanır
+* "txt_userName" li elementin text değeri <message>'ye eşit mi?
+
+# Sayfada yer alan ürünlerden <productName> ürününe tıklanır.
+* Sayfa aşağı scroll yapılır.
+//* "txt_productsName" li elemente tıkla
+* "txt_productsName" li elementlerden texti <productName> olana tıkla
+* "2" saniye kadar bekle
+
+# Ürün detayında Ürünün adı:<text1>, Fiyatı:<text2> ve Açıklma:<text3> bilgileri kontrol edilir.
+* "txt_productName" li elementin text değeri <text1>'ye eşit mi?
+* "txt_productPrice" li elementin text değeri <text2>'yi içeriyor mu?
+* "txt_productInfo" li elementin text değeri <text3>'yi içeriyor mu?
+
+# Add to Cart butonuna tıklanır ve ürün sepete eklenir,doğrulanır. Message:<message>
+* "btn_addToCart" li elemente tıkla
+* Açılan popup da <message> var mı?
+
+# <text> butonuna tıklanır ve doğru ürün ve detayları kontrol edilir. Ürünün adı:<productName>, Fiyatı:<productPrice>
+* "btn_navBarElements" li elementlerden texti <text> olana tıkla
+* "2" saniye kadar bekle
+* "txt_productNameInCart" li elementin text değeri <productName>'ye eşit mi?
+* "txt_productPriceInCart" li elementin price değeri <productPrice>'yi içeriyor mu?
+
+# Place Order butonuna tıklanır ve form doldurulur.
+* "btn_placeOrder" li elemente tıkla
+* "2" saniye kadar bekle
+* Place Order formundakı "Name:" alanına "Samir" değeri yazılır
+* Place Order formundakı "Country:" alanına "Turkey" değeri yazılır
+* Place Order formundakı "City:" alanına "İstanbul" değeri yazılır
+* Place Order formundakı "Credit card:" alanına "1111222233334444" değeri yazılır
+* Place Order formundakı "Month:" alanına "09" değeri yazılır
+* Place Order formundakı "Year:" alanına "2024" değeri yazılır
+
+# Place Order formundakı <labelAreaPage> alanına <inputValue> değeri yazılır
+* "txt_placeOrderInfosLabel" li elementlerden <labelAreaPage> değerine eşit olanın yanındaki "txt_Input" elementine tıkla
+* "txt_placeOrderInfosLabel" li elementlerden <labelAreaPage> değerine eşit olanın yanındaki "txt_Input" elementine <inputValue> değerini yaz
+* "1" saniye kadar bekle
+
+# Purchase butonuna basılarak siparişin başarılı şekilde gerçekleştiği kontrol edilir. Message:<message>
+* "btn_purchase" li elemente tıkla
+* "txt_successPurchase" li elementin text değeri <message>'ye eşit mi?

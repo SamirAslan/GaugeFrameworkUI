@@ -1,0 +1,102 @@
+[
+  {
+    "key": "btn_navBarElements",
+    "value": "//div[@id='navbarExample']/ul/li/a",
+    "type": "xpath"
+  },
+  {
+    "key": "field_userSignup",
+    "value": "[id='sign-username']",
+    "type": "css"
+  },
+  {
+    "key": "field_passwordSignup",
+    "value": "[id='sign-password']",
+    "type": "css"
+  },
+  {
+    "key": "btn_signUp",
+    "value": "//button[text()='Sign up']",
+    "type": "xpath"
+  },
+  {
+    "key": "field_userLogin",
+    "value": "[id='loginusername']",
+    "type": "css"
+  },
+  {
+    "key": "field_passwordLogin",
+    "value": "[id='loginpassword']",
+    "type": "css"
+  },
+  {
+    "key": "btn_login",
+    "value": "//button[text()='Log in']",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_userName",
+    "value": "//a[@id='nameofuser']",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_productsName",
+    "value": "//div[@id=\"tbodyid\"]/div/div/div/h4/a",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_productName",
+    "value": "//h2[@class=\"name\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_productPrice",
+    "value": "//h3[@class=\"price-container\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_productInfo",
+    "value": "//div[@id=\"more-information\"]/p",
+    "type": "xpath"
+  },
+  {
+    "key": "btn_addToCart",
+    "value": "//a[text()=\"Add to cart\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_productNameInCart",
+    "value": "//tbody[@id=\"tbodyid\"]/tr/td[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_productPriceInCart",
+    "value": "//tbody[@id=\"tbodyid\"]/tr/td[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "btn_placeOrder",
+    "value": "//button[text()=\"Place Order\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "btn_purchase",
+    "value": "//button[text()=\"Purchase\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_Input",
+    "value": "..//input",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_placeOrderInfosLabel",
+    "value": "//div[@id='orderModal']/div/div/div[2]/form/div/label",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_successPurchase",
+    "value": "//div[@class='sweet-alert  showSweetAlert visible']/h2",
+    "type": "xpath"
+  }
+]
